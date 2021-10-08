@@ -15,6 +15,7 @@ let server = EUWserv
 function fetchData(){
     let type = summoner
     let player = document.querySelector('#player').value
+    let apikey = '?api_key=' + document.querySelector('#api').value
 let url = server + type + player + apikey
 fetch(url)
 .then (response => response.json())//Takes response

@@ -30,7 +30,7 @@ html,body{
     font-size: 2.5em;
     text-align: center;
 }
-.server, .player{
+.api, .player{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -41,7 +41,7 @@ html,body{
     font-size: 1.5em;
     margin-bottom: 7px;
 }
-.player input{
+.api input, .player input{
     font-size: 1.5em;
     padding: .1em .25em;
     background-color:hsla(201, 100%, 91%, 0.3);
@@ -54,7 +54,7 @@ html,body{
 }
 
 
-.player input:focus{
+.api input:focus,.player input:focus{
     border: 1px solid hsl(201, 100%, 50%)
 }
 #search-button{
