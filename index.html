@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="api.js"></script><!--API KEY, DO NOT INCLUDE IN GIT-->
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "site-container">
+        <div class = "content-container">
+    <div class="search-container">
+        <h3>Search for a player!</h3>
+    <form>
+        <div class="player">
+        <label>Player</label>    
+        <input type="player" id="player">
+        </div>
+        <input type="button" onclick = "fetchData()" value="Look up" id="search-button">
+    
+    </form>
+    </div>
+    <div id="data-container">
+        <div id="inside-content-container">
+
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
