@@ -36,7 +36,7 @@ function appendData(data){
 function rankData(player){
 type = rank
 console.log(type)
-
+let apikey = '?api_key=' + document.querySelector('#api').value
 console.log(player)
 let url = server + type + player + apikey
 console.log(url)
